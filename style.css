@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.body {
+    box-sizing: border-box;
+
+}
+
+.main-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.addBtn {
+    margin-left: auto;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.status-direction {
+    display: flex;
+    flex-direction: column;
+
+    width: 50vw;
+}
+
+/* Dark theme styles */
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+/* Apply dark background and white text to form inputs, dropdowns, and buttons */
+.dark-theme input {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme select {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme button {
+    background-color: black;
+    color: white;
+}
+
+
+
+.card {
+    border: none;
+    border-radius: 8px;
+}
+
+.badge-warning {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.card {
+    border-radius: 12px;
+    background-color: white;
+}
+
+.dark-theme .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-theme .badge {
+    color: black;
+}
